@@ -1,0 +1,191 @@
+
+
+
+
+.floatleft{float:left;}
+.floatright{float:right;}
+a{text-decoration:none;}
+
+
+/* Header Area Starts */
+.content_area{overflow:hidden;margin:0 auto;display:block;}
+.header_area{background-color:#424242;height:30px;}
+.log_in ul{margin:0;padding:6px;list-style:none;}
+.log_in ul li{display:inline-block;}
+.log_in ul li a{padding:10px;color:#fff;}
+.log_in ul li a:hover{color:yellow;}
+
+.header_big{background:#ededed;height:100px;border-bottom:1px solid #d8d8d8;}
+
+.logo{padding:12px;}
+
+
+.search_bar{margin:35px 0 0 35px;}
+.tftextinput{
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border:1px solid #0076a3; border-right:0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+.tfbutton {
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #0076a3; border-right:0px;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.tfbutton:hover {
+	text-decoration: none;
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
+/* Fixes submit button height problem in Firefox */
+.tfbutton::-moz-focus-inner {
+	border: 0;
+}
+.tfclear{
+	clear:both;
+}
+
+.your_cart{}
+.your_cart_top{height:60px;}
+.your_cart_bottom{}
+.your_cart img{float:left;padding:15px;}
+.your_cart h2{float:left;margin-top:15px;}
+.your_cart h3{float:left;margin:0 30px 0 15px;}
+
+.divider_line{margin-top:15px;}
+.wish_list{}
+.wish_list img{margin:20px 0 0 65px;}
+.wish_list h2{margin:5px 0 0 20px;}
+/* Header Area Ends */
+
+/* Navbar Area Starts */
+
+.hidden_menu{}
+.menu_area{}
+.hidden_menu .navbar{
+	margin-bottom:0px;
+	border:none;
+	background-color:#fff;
+	border-bottom:1px solid #d8d8d8;
+	border-radius:0px;
+	min-height:0px;
+}
+.navbar_top{
+
+
+}
+.hidden_menu_top{}
+.top_nav{
+	font-family:calibri;
+	font-size:18px;
+	background-color:#fff;
+}
+.nav_top{}
+
+.top_nav_block{
+
+}
+
+.hidden_menu .navbar_top .top_nav_block > .active > a, .hidden_menu .navbar_top .top_nav_block > .active > a:hover, .hidden_menu .navbar_top .top_nav_block > .active > a:focus {
+    color: #000;
+    background-color: #7db863;
+	font-weight:bold;
+}
+.hidden_menu .navbar_top .navbar-nav > li > a {
+    color: #000;
+	padding:8px 20px 8px 20px;
+}
+
+.hidden_menu .nav_top .top_nav_block li{margin-top:0px;}
+.hidden_menu .nav_top .top_nav_block li a{color:#000;}
+.hidden_menu .nav_top .top_nav_block li a:hover{
+	color: #f37373;
+}
+/* Navbar Area Ends */
+
+/* Body Left Column Area Starts */
+.left_column{border:1px solid #d8d8d8;margin-top:10px;}
+.left_column ul{margin:0;padding:0px;list-style:none;}
+.title h2{font-size:25px;}
+.inner_content{margin-left:20px;}
+
+
+.flexy-menu{font-family: "Source Sans Pro", Segoe UI, Arial;}
+			.flexy-menu li{display:inline-block;font-size:13px;margin:0;padding:0;float:left;line-height: 15px;position:relative;}
+			.flexy-menu > li > a{color:#000;text-decoration:none;display:block;text-transform:uppercase;}
+			.flexy-menu li:hover > a,.flexy-menu li.active a{background: #555;color: #fff;}
+			.flexy-menu ul{}
+			.flexy-menu ul li{clear:both;width:100%;border: none;font-size:12px;}
+			.flexy-menu ul li a{}
+			.flexy-menu > li.showhide{display: none;width: 100%;height: 50px;cursor: pointer;color:#dedede;border-bottom: solid 1px rgba(0, 0, 0, 0.1);background: #333333;}
+			.flexy-menu > li.showhide span.title{margin: 16px 0 0 25px;float: left;}
+			.flexy-menu > li.showhide span.icon{margin: 17px 20px;float: right;}
+			.flexy-menu > li.showhide .icon em{margin-bottom: 3px;display: block;width: 20px;height: 2px;background: #ccc;}
+			.orange li:hover > a, .orange li.active a{background: #ff670f;color: #fff!important;}
+			.flexy-menu.vertical{width: 160px;}
+			.flexy-menu.vertical li{width: 100%;}
+			.flexy-menu.vertical li a{display: inline-block !important;width: 100%;padding:8px 15px 8px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+			.flexy-menu.vertical ul li{width: 100%;}
+			.flexy-menu.vertical ul, .flexy-menu.vertical ul li ul{width: 150px;}
+			.flexy-menu.vertical ul{top: 0;left: 100%;}
+			.flexy-menu.vertical ul li ul{top: 0px;}
+			.flexy-menu.vertical.right{float: right !important;}
+			.flexy-menu.vertical.right ul{left: -150px !important;}
+/* Body Left Column Area Ends */
+
+/* Body Right Column Area Starts */
+.right_column{border:1px solid #d8d8d8;margin-top:10px;margin-left:10px;}
+.right_column_content{margin-left:20px;margin-bottom:0px;}
+.books_grid{margin-top:10px;text-align:center;}
+.books_grid p{line-height:15px;}
+.books_row{}
+.pagination_area{margin-bottom:-25px;}
+.pagination_area{}
+.pagination_area ul{}
+.pagination_area ul li{}
+.pagination_area ul li a{background:#fff;color: grey;border:none;}
+.pagination_area ul li a:hover{color:#7db863;}
+/* Body Right Column Area Ends */
+
+/* Footer Area Starts */
+.footer_area{background:url(../img/footer_top_bg.jpg) repeat; margin-top:20px;}
+.footer_content{margin-bottom:20px;margin-left:30px;}
+.footer_content p{color:#c8c8c9;font-size:16px;margin:25px 0 5px 0px;}
+.footer_content ul{margin:0;padding:0px;list-style:none;font-size:13px;}
+.footer_content ul li{}
+.footer_content ul li a{}
+.footer_content ul li a:hover{color:#c8c8c9;}
+
+
+.payment_area{background:url(../img/footer_bottom_bg.jpg) repeat;border-bottom:1px solid #424242;}
+.payment_content{text-align:center;margin-bottom:10px;}
+.payment_content p{color:grey;margin-top:10px;}
+.payment_content ul{margin:0;padding:0px;list-style:none;}
+.payment_content ul li{display:inline-block;}
+.payment_content ul li a{}
+
+
+.privacy_policy{background:url(../img/footer_bottom_bg.jpg) repeat;}
+.policy_content{text-align:center;}
+.policy_content{color:grey;margin-top:10px;}
+/* Footer Area Ends */
+
+
+
+			

@@ -1,0 +1,160 @@
+/*	Less Framework 4 with 16/24 type presets
+	http://lessframework.com
+	by Joni Korpi
+	License: http://opensource.org/licenses/mit-license.php	*/
+
+
+/*		Default Layout: 992px.*/
+			.content_area{width:960px;}
+			.log_in{}
+			.logo{width:170px;}
+			.search_bar{width:330px;}
+			.your_cart{width:250px;}
+			.wish_list{width:174px;}
+			.left_column{width:200px;}
+			.right_column{width:740px;}
+			.books_grid{width:137px;}
+			.books_row{}
+			.footer_area{}
+			.footer_content{width:210px;}
+
+/*		Tablet Layout: 768px.*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+			.header_area{height:26px;}
+			.content_area{width:700px;}
+			.log_in{width:700px;}
+			.log_in ul{padding:3px;}
+			.log_in ul li{}
+			.log_in ul li a{font-size:12px;}
+			.header_big{height:78px;}
+			.logo{width:125px;margin-left:10px;margin-right:5px;}
+			.search_bar{width:195px;margin:27px 20px 0 20px;}
+			.search_bar input{max-width:120px;max-height:26px;}
+			.tfbutton{font-size:12px;}
+			.your_cart{width:200px;}
+			.your_cart h2{font-size:18px;}
+			.your_cart img{padding:8px;}
+			.your_cart_bottom {margin:-14px;}
+			.your_cart_bottom h3{font-size:18px;margin-left:25px;}
+			.your_cart_bottom button{font-size:12px;padding:3px;}
+			.divider_line{margin-top:4px;}
+			.wish_list{width:110px;}
+			.wish_list img{margin:20px 0 0 40px;}
+			.wish_list h2{font-size:18px;}
+			.top_nav_block{font-size:14px;}
+			.hidden_menu .navbar_top .navbar-nav > li > a {padding:5px 13px 5px 13px;}
+			.left_column{width:160px;}
+			.inner_content h2{font-size:18px;}
+			.flexy-menu.vertical li{width: 75%;}
+			.right_column{width:530px;}
+			.right_column_content h2{font-size:18px;}
+			.books_grid{width:90px;margin-right:9px;}
+			.books_grid p{font-size:12px;}
+			.books_row{}
+			.pagination_area{font-size:12px;}
+			.footer_area{height:285px;margin-top:10px;}
+			.footer_content{width:145px;}
+			.footer_content p {font-size:12px;margin-top:15px;}
+			.footer_content ul {font-size:12px;}
+			.payment_content{font-size:12px;margin-bottom:3px;}
+			.payment_content p{margin-top:6px;}
+			.policy_content{font-size:12px;margin-bottom:-5px;}
+			.policy_content p{margin-top:-5px;}
+
+			
+
+}
+
+
+/*		Mobile Layout: 320px.*/
+@media only screen and (max-width: 479px) {
+			.header_area{height:20px;}
+			.content_area{width:280px;}
+			.log_in{width:300px;}
+			.log_in ul{padding:0px;}
+			.log_in ul li{}
+			.log_in ul li a{font-size:10px;}
+			.header_big{height:78px;}
+			.logo{width:90px;}
+			.search_bar{width:120px;margin:12px 0px 0 5px;}
+			.search_bar input{max-width:75px;max-height:21px;}
+			.tfbutton{font-size:13px;padding:1px 2px;}
+			.your_cart{width:180px;}
+			.your_cart h2{font-size:12px;margin-top:6px;margin-bottom:0px;}
+			.your_cart img{padding:5px;width:25px;}
+			.your_cart_bottom {margin:-33px;}
+			.your_cart_bottom h3{font-size:12px;margin-left:40px;}
+			.your_cart_bottom button{font-size:10px;padding:1px;margin-top:-12px;}
+			.divider_line{margin-top:-29px;margin-left:-40px}
+			.wish_list{width:20px;margin:8px 0 0 -3px;}
+			.wish_list img{margin:-40px 0 0 16px;}
+			.wish_list h2{font-size:12px;}
+			.top_nav_block{font-size:14px;}
+			.navbar-default .navbar-toggle{padding:7px 7px; margin-top:5px;margin-bottom:5px;}
+			.navbar_top .navbar-nav > li > a {padding:5px 10px 5px 30px;}
+			.left_column{width:150px;border:none;}
+			.inner_content h2{font-size:18px;}
+			.flexy-menu > li.showhide{width: 150%;}
+			.right_column{width:260px;}
+			.right_column_content h2{font-size:14px;margin:15px 0 0 -5px;font-weight:bold;}
+			.books_grid{width:45px;margin-right:3px;}
+			.books_grid p{font-size:10px;line-height:12px;}
+			.books_row{margin-left:-10px;}
+			.pagination_area{font-size:12px;}
+			.footer_area{height:555px;margin-top:10px;}
+			.footer_content{width:100px;}
+			.footer_content p {font-size:12px;margin-top:10px;}
+			.footer_content ul {font-size:10px;}
+			.payment_content{font-size:10px;margin-bottom:3px;}
+			.payment_content p{margin-top:6px;}
+			.policy_content{font-size:10px;margin-bottom:-5px;}
+			.policy_content p{margin-top:-5px;}
+	
+}
+
+
+/*		Wide Mobile Layout: 480px.*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+			.header_area{height:22px;}
+			.content_area{width:450px;}
+			.log_in{width:450px;}
+			.log_in ul{padding:0px;}
+			.log_in ul li{}
+			.log_in ul li a{font-size:12px;}
+			.header_big{height:79px;}
+			.logo{width:110px;}
+			.search_bar{width:120px;margin:27px 10px 0 7px;}
+			.search_bar input{max-width:75px;max-height:21px;}
+			.tfbutton{font-size:13px;padding:1px 2px;}
+			.your_cart{width:180px;margin-top:15px;}
+			.your_cart h2{font-size:12px;margin-top:6px;margin-bottom:0px;}
+			.your_cart img{padding:5px;width:25px;}
+			.your_cart_bottom {margin:-33px;}
+			.your_cart_bottom h3{font-size:12px;margin-left:40px;}
+			.your_cart_bottom button{font-size:10px;padding:1px;margin-top:-12px;}
+			.divider_line{margin-top:4px;margin-left:-40px}
+			.wish_list{width:60px;margin:22px 0 0 0;}
+			.wish_list img{margin:-40px 0 0 16px;}
+			.wish_list h2{font-size:12px;}
+			.top_nav_block{font-size:14px;}
+			.navbar-default .navbar-toggle{padding:7px 7px; margin-top:5px;margin-bottom:5px;}
+			.navbar_top .navbar-nav > li > a {padding:5px 10px 5px 30px;}
+			.left_column{width:150px;border:none;}
+			.inner_content h2{font-size:18px;}
+			.flexy-menu > li.showhide{width: 255%;}
+			.right_column{width:427px;}
+			.right_column_content h2{font-size:16px;margin:15px 0 0 -5px;font-weight:bold;}
+			.books_grid{width:75px;margin-right:7px;}
+			.books_grid p{font-size:10px;line-height:12px;}
+			.books_row{margin-left:-10px;}
+			.pagination_area{font-size:12px;}
+			.footer_area{height:365px;margin-top:10px;}
+			.footer_content{width:82px;margin-left:25px;}
+			.footer_content p {font-size:12px;margin-top:10px;}
+			.footer_content ul {font-size:10px;}
+			.payment_content{font-size:10px;margin-bottom:3px;}
+			.payment_content p{margin-top:6px;}
+			.policy_content{font-size:10px;margin-bottom:-5px;}
+			.policy_content p{margin-top:-5px;}
+
+}
